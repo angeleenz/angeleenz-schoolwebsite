@@ -1,0 +1,263 @@
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0px 150px
+}
+
+.header {
+    background-image: url(bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    
+    margin-right: 25px;
+    
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+    color: #443f94;
+}
+
+.eye {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s linear;
+    margin-right: 25px;
+}
+
+.eye:hover {
+    background-color: #443f94;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: #000;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    position:relative;
+    text-align: center;
+    
+    margin-top: 150px;
+}
+
+.header-news {
+    color: #443f94;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ebebeb;
+    width: 350px;
+    margin-right: 50px;
+    padding: 10px 5px;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.card-title {
+    color: #443f94;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 19px;
+}
+
+.card-desc {
+    color: #414141;
+    justify-content: center;
+    font-weight: bold;
+    text-align-last: center;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    
+}
+
+.card-desc:hover {
+    color: #443f94;
+}
+
+.news {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.news-item {
+    color: #443f94;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    transition: color 0.2s linear;
+    
+}
+
+.news-item:hover {
+    color: #827ec3;
+}
+
+
+.welcome {
+    margin-top: 200px;
+}
+
+
+.welcome-title {
+    font-family: 'Tenor Sans', sans-serif; 
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    width: 800px;
+    margin-top: -350px;
+}
+
+.ask {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: thin solid black;
+}
+.ask-button {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-left: 9px;
+    position: absolute;
+}
+
+
+
+.black-block {
+    background-image: url(black-bg.jpg);
+    padding: 110px 0px;
+    padding-bottom: 100px;
+}
+
+.photos-title {
+    color: #fff;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.galerry-item {
+    background-color: #443f94;
+    text-align: center;
+    width: 350px;
+    padding-top: 50px;  
+    padding-bottom: 20px;
+    
+    margin-right: 20px;
+}
+
+.nav-gallery-text {
+    color: #fff;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 50px;
+    padding-top: 20px;
+    transition: color 0.2s linear;
+}
+
+.nav-gallery-text: hover {
+    color: #827ec3;
+}
+
+.gallery-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+
+.footer {
+    margin-top: 100px;
+    background-color: #777777;
+    padding: 30px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content div span {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+
+.footer-content div h2 {
+    font-size: 30px;
+    color: #643888;
+    font-weight: 70px;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.footer-content div h3 {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.footer-content div a {
+    font-size: 15px;
+    color: #643888;
+    font-weight: bold;
+    font-family: 'Ysabeau Office', sans-serif;
+    display: block;
+    text-decoration: none;
+}
